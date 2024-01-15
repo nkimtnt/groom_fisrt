@@ -29,4 +29,4 @@ COPY --from=builder /dist/groom_first /groom_first
 
 EXPOSE 8080
 
-ENTRYPOINT ["/kimvayne_pg"]
+ENTRYPOINT ["/groom_first"]
